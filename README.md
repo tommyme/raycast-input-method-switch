@@ -18,3 +18,6 @@ swim use `swim list | grep -v $(/usr/local/bin/swim list --current)`
 
 ## 未来展望
 添加切换虚拟桌面的功能
+
+## 开发知识
+使用exec函数执行command是开了一个新的进程执行, 所以await了也没用
